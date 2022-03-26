@@ -39,15 +39,14 @@ class Matrix {
       }
     }    
 
-
     void Transpose() {
-      for (int i = 0; i < this->rows; i++) {
-        for (int j = 0; j < this->cols; j++) {
-          int tmp = this->a[i][j];
+      for (int i = 0; i <=this->rows; ++i) {
+        for (int j = i; j <= this->cols; ++j) {
+          int temp = this->a[i][j];
           this->a[i][j] = this->a[j][i];
-          this->a[j][i] = tmp;
+          this->a[j][i] = temp;
         }
-      }
+	    }
 
       int temp = this->rows;
       this->rows = this->cols;
