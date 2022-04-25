@@ -28,7 +28,7 @@ class Teacher: public Person {
     }
 
     void get_specialization() {
-      cout <<  << endl;
+      // cout <<  << endl;
     }
     
 };

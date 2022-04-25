@@ -9,7 +9,7 @@ char calculateGrade(int percentage) {
   else if (percentage >= 60 && percentage < 75) 
     return 'B';
   else if (percentage >= 40 && percentage < 60)
-    return 'C';
+    return 'C';2
   else  
     return 'F';
 }
