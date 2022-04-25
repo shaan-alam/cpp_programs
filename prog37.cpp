@@ -41,7 +41,7 @@ int main() {
 
   cout << "\t\tEmployees' data: " << endl;
   cout << "=================================================================" << endl;
-  cout << setw(16) << "ID" << setw(16) << "Salary" << endl;
+  cout << setw(16) << "ID" << setw(16) << "Salary" << endl; 
   cout << "=================================================================" << endl;
 
   for (int i = 0; i < 5; i++) {

@@ -16,7 +16,7 @@ void readPoint (Point &p) {
   for (int i = 0; i < coord.length(); i++) {
     if (coord[i] == ',') {
       pos = i;
-      if (coord[i + 1] == ' ') pos = i + 1;
+      // if (coord[i + 1] == ' ') pos = i + 1;
       break;
     }
   }

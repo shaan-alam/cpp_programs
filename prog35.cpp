@@ -60,7 +60,6 @@ int main() {
   cout << "C1: ";
   C1.display();
 
-  
   cout << "C2: ";
   C2.display();
 

@@ -50,7 +50,6 @@ int main() {
         cout << "Enter the string : " << endl;
         getline(cin, str);
 
-
         cout << "Enter the character to remove: " << endl;
         cin >> x;
 
