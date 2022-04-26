@@ -6,9 +6,9 @@ int main() {
   fstream file;
   string str;
   string longest;
-  int max = -1;;
+  int max = -1;
 
-  file.open("file.txt", ios::out);
+  file.open("sample_text.txt", ios::in);
 
   if (!file) {
     cout << "Cannot create file!!" << endl;
